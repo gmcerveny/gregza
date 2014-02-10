@@ -1,5 +1,5 @@
 //
-//  GZViewController.h
+//  GZActivityViewController.h
 //  gregza
 //
 //  Created by Greg Cerveny on 2/6/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GZViewController : UIViewController
+@interface GZActivityViewController : UITableViewController
 
 @end

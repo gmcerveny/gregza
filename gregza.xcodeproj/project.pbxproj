@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		362D38F218A440B1003C073E /* GZActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 362D38F118A440B1003C073E /* GZActivityViewController.m */; };
+		362D38F518A47691003C073E /* GZStationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 362D38F418A47691003C073E /* GZStationListViewController.m */; };
+		362D38F718A579ED003C073E /* 120x120.gif in Resources */ = {isa = PBXBuildFile; fileRef = 362D38F618A579ED003C073E /* 120x120.gif */; };
+		362D38FA18A7C5B2003C073E /* GZStationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 362D38F918A7C5B2003C073E /* GZStationDetailViewController.m */; };
+		362D390018A82882003C073E /* GZProfileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 362D38FF18A82882003C073E /* GZProfileManager.m */; };
 		36E73A7018A3D4A700E5444B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E73A6F18A3D4A700E5444B /* Foundation.framework */; };
 		36E73A7218A3D4A700E5444B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E73A7118A3D4A700E5444B /* CoreGraphics.framework */; };
 		36E73A7418A3D4A800E5444B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E73A7318A3D4A800E5444B /* UIKit.framework */; };
@@ -14,13 +19,13 @@
 		36E73A7C18A3D4A800E5444B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E73A7B18A3D4A800E5444B /* main.m */; };
 		36E73A8018A3D4A800E5444B /* GZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E73A7F18A3D4A800E5444B /* GZAppDelegate.m */; };
 		36E73A8318A3D4A800E5444B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E73A8118A3D4A800E5444B /* Main.storyboard */; };
-		36E73A8618A3D4A800E5444B /* GZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E73A8518A3D4A800E5444B /* GZViewController.m */; };
 		36E73A8818A3D4A800E5444B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36E73A8718A3D4A800E5444B /* Images.xcassets */; };
 		36E73A8F18A3D4A800E5444B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E73A8E18A3D4A800E5444B /* XCTest.framework */; };
 		36E73A9018A3D4A800E5444B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E73A6F18A3D4A700E5444B /* Foundation.framework */; };
 		36E73A9118A3D4A800E5444B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E73A7318A3D4A800E5444B /* UIKit.framework */; };
 		36E73A9918A3D4A800E5444B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36E73A9718A3D4A800E5444B /* InfoPlist.strings */; };
 		36E73A9B18A3D4A800E5444B /* gregzaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E73A9A18A3D4A800E5444B /* gregzaTests.m */; };
+		36E73AA618A3D4EC00E5444B /* GZStationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E73AA518A3D4EC00E5444B /* GZStationManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		362D38F018A440B1003C073E /* GZActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZActivityViewController.h; sourceTree = "<group>"; };
+		362D38F118A440B1003C073E /* GZActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZActivityViewController.m; sourceTree = "<group>"; };
+		362D38F318A47691003C073E /* GZStationListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZStationListViewController.h; sourceTree = "<group>"; };
+		362D38F418A47691003C073E /* GZStationListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZStationListViewController.m; sourceTree = "<group>"; };
+		362D38F618A579ED003C073E /* 120x120.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 120x120.gif; sourceTree = "<group>"; };
+		362D38F818A7C5B2003C073E /* GZStationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZStationDetailViewController.h; sourceTree = "<group>"; };
+		362D38F918A7C5B2003C073E /* GZStationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZStationDetailViewController.m; sourceTree = "<group>"; };
+		362D38FE18A82882003C073E /* GZProfileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZProfileManager.h; sourceTree = "<group>"; };
+		362D38FF18A82882003C073E /* GZProfileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZProfileManager.m; sourceTree = "<group>"; };
 		36E73A6C18A3D4A700E5444B /* gregza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gregza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E73A6F18A3D4A700E5444B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		36E73A7118A3D4A700E5444B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +59,14 @@
 		36E73A7E18A3D4A800E5444B /* GZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GZAppDelegate.h; sourceTree = "<group>"; };
 		36E73A7F18A3D4A800E5444B /* GZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GZAppDelegate.m; sourceTree = "<group>"; };
 		36E73A8218A3D4A800E5444B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		36E73A8418A3D4A800E5444B /* GZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GZViewController.h; sourceTree = "<group>"; };
-		36E73A8518A3D4A800E5444B /* GZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GZViewController.m; sourceTree = "<group>"; };
 		36E73A8718A3D4A800E5444B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		36E73A8D18A3D4A800E5444B /* gregzaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gregzaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E73A8E18A3D4A800E5444B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		36E73A9618A3D4A800E5444B /* gregzaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gregzaTests-Info.plist"; sourceTree = "<group>"; };
 		36E73A9818A3D4A800E5444B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		36E73A9A18A3D4A800E5444B /* gregzaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gregzaTests.m; sourceTree = "<group>"; };
+		36E73AA418A3D4EC00E5444B /* GZStationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZStationManager.h; sourceTree = "<group>"; };
+		36E73AA518A3D4EC00E5444B /* GZStationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZStationManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +126,17 @@
 		36E73A7518A3D4A800E5444B /* gregza */ = {
 			isa = PBXGroup;
 			children = (
+				362D38F618A579ED003C073E /* 120x120.gif */,
+				36E73AA718A3D5E100E5444B /* API */,
 				36E73A7E18A3D4A800E5444B /* GZAppDelegate.h */,
 				36E73A7F18A3D4A800E5444B /* GZAppDelegate.m */,
 				36E73A8118A3D4A800E5444B /* Main.storyboard */,
-				36E73A8418A3D4A800E5444B /* GZViewController.h */,
-				36E73A8518A3D4A800E5444B /* GZViewController.m */,
+				362D38F018A440B1003C073E /* GZActivityViewController.h */,
+				362D38F118A440B1003C073E /* GZActivityViewController.m */,
+				362D38F318A47691003C073E /* GZStationListViewController.h */,
+				362D38F418A47691003C073E /* GZStationListViewController.m */,
+				362D38F818A7C5B2003C073E /* GZStationDetailViewController.h */,
+				362D38F918A7C5B2003C073E /* GZStationDetailViewController.m */,
 				36E73A8718A3D4A800E5444B /* Images.xcassets */,
 				36E73A7618A3D4A800E5444B /* Supporting Files */,
 			);
@@ -150,6 +170,17 @@
 				36E73A9718A3D4A800E5444B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36E73AA718A3D5E100E5444B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				36E73AA418A3D4EC00E5444B /* GZStationManager.h */,
+				36E73AA518A3D4EC00E5444B /* GZStationManager.m */,
+				362D38FE18A82882003C073E /* GZProfileManager.h */,
+				362D38FF18A82882003C073E /* GZProfileManager.m */,
+			);
+			name = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36E73A8818A3D4A800E5444B /* Images.xcassets in Resources */,
+				362D38F718A579ED003C073E /* 120x120.gif in Resources */,
 				36E73A7A18A3D4A800E5444B /* InfoPlist.strings in Resources */,
 				36E73A8318A3D4A800E5444B /* Main.storyboard in Resources */,
 			);
@@ -250,9 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				362D390018A82882003C073E /* GZProfileManager.m in Sources */,
 				36E73A7C18A3D4A800E5444B /* main.m in Sources */,
-				36E73A8618A3D4A800E5444B /* GZViewController.m in Sources */,
 				36E73A8018A3D4A800E5444B /* GZAppDelegate.m in Sources */,
+				362D38F518A47691003C073E /* GZStationListViewController.m in Sources */,
+				362D38FA18A7C5B2003C073E /* GZStationDetailViewController.m in Sources */,
+				362D38F218A440B1003C073E /* GZActivityViewController.m in Sources */,
+				36E73AA618A3D4EC00E5444B /* GZStationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +497,7 @@
 				36E73AA018A3D4A800E5444B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36E73AA118A3D4A800E5444B /* Build configuration list for PBXNativeTarget "gregzaTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +506,7 @@
 				36E73AA318A3D4A800E5444B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
